@@ -1,0 +1,466 @@
+14/11/2018 09.28.58	GetConnectionParam System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_agordo" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   in System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   in System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.Gestione..ctor(String path_connessioni_xml)
+   in WindasNet.Utili.GetConnectionParams() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\Utili.vb:riga 9
+ClientConnectionId:29ba2922-9e81-4401-a071-48c4a3124bce
+Error Number:4060,State:1,Class:11
+14/11/2018 09.28.58	GestioneLinee errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneLinee() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 338
+14/11/2018 09.28.58	CambiaStatoImpianto: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.CambiaStatoImpianto(StatiImpianto NuovoStato) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 1279
+14/11/2018 09.28.58	CaricaDati errore: System.ArgumentNullException: Il valore non può essere null.
+Nome parametro: L'argomento 'Array' è Nothing.
+   in Microsoft.VisualBasic.Information.UBound(Array Array, Int32 Rank)
+   in WindasNet.FrmMain.CaricaDati() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 305
+14/11/2018 09.28.59	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 516
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 442
+14/11/2018 09.28.59	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 516
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 442
+14/11/2018 09.28.59	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 516
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.28.59	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 442
+14/11/2018 09.29.00	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 516
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 442
+14/11/2018 09.29.00	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 516
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.00	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 442
+14/11/2018 09.29.01	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 516
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 442
+14/11/2018 09.29.01	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 516
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.01	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 442
+14/11/2018 09.29.02	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 516
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 442
+14/11/2018 09.29.02	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 516
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.02	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 442
+14/11/2018 09.29.03	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 516
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 442
+14/11/2018 09.29.03	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 516
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.03	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 442
+14/11/2018 09.29.04	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 516
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 442
+14/11/2018 09.29.04	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 516
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 606
+14/11/2018 09.29.04	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 442
+14/11/2018 11.37.19	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.19	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.19	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.19	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.20	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.20	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.20	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.20	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.21	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.21	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.21	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.21	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.22	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.22	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.22	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.22	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.23	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 11.37.23	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 12.01.28	Linea.CaricaMisure errore: System.InvalidCastException: Cast non valido dal tipo 'DBNull' al tipo 'String'.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   in WindasNet.Linea.CaricaMisure() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 48
+14/11/2018 12.02.28	Linea.CaricaMisure errore: System.InvalidCastException: Cast non valido dal tipo 'DBNull' al tipo 'String'.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   in WindasNet.Linea.CaricaMisure() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 48
+14/11/2018 12.03.28	Linea.CaricaMisure errore: System.InvalidCastException: Cast non valido dal tipo 'DBNull' al tipo 'String'.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   in WindasNet.Linea.CaricaMisure() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 48
+14/11/2018 12.30.24	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 12.30.24	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 12.30.25	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 12.30.25	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 12.30.25	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611
+14/11/2018 12.30.25	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 611

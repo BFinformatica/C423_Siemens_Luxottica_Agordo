@@ -1,0 +1,4 @@
+15/11/2018 10.26.22 Attenzione parametro NON trovato
+15/11/2018 10.27.09 Attenzione parametro NON trovato
+15/11/2018 10.27.20 ControlloWatchdogPLC: Manca programma BFImport.
+15/11/2018 10.56.03 ControlloWatchdogPLC: Manca programma BFImport.

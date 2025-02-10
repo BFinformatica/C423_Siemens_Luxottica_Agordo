@@ -1,0 +1,42 @@
+16/06/2020 16.14.24	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(String TipoTag) in C:\01 Commesse\C996 Siemens\094 - Enel SI Agordo\Windas.NET\WindowsApplication1\FrmMain.vb:riga 612
+16/06/2020 16.14.24	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(String TipoTag) in C:\01 Commesse\C996 Siemens\094 - Enel SI Agordo\Windas.NET\WindowsApplication1\FrmMain.vb:riga 612
+16/06/2020 16.14.25	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(String TipoTag) in C:\01 Commesse\C996 Siemens\094 - Enel SI Agordo\Windas.NET\WindowsApplication1\FrmMain.vb:riga 612
+16/06/2020 16.14.25	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(String TipoTag) in C:\01 Commesse\C996 Siemens\094 - Enel SI Agordo\Windas.NET\WindowsApplication1\FrmMain.vb:riga 612
+16/06/2020 16.14.25	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(String TipoTag) in C:\01 Commesse\C996 Siemens\094 - Enel SI Agordo\Windas.NET\WindowsApplication1\FrmMain.vb:riga 612
+16/06/2020 16.14.25	GestioneCasella errore: System.InvalidCastException: Cast non valido dalla stringa "" al tipo 'Double'. ---> System.FormatException: Formato della stringa di input non corretto.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   in WindasNet.FrmMain.GestioneCasella(String TipoTag) in C:\01 Commesse\C996 Siemens\094 - Enel SI Agordo\Windas.NET\WindowsApplication1\FrmMain.vb:riga 612

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mailSenderConfig>
+  <mailSenderConfigElement 
+    to="nicolo@bfinformatica.com;"
+    cc="matteo@bfinformatica.com"
+    ccn=""
+    serverSMTP="smtp.bfinformatica.com"
+    serverPort="25"
+    accountUser="SMEcloud@bfinformatica.com"
+    accountPassword="Bfinfo9876"
+    accountDomain=""
+    enableSSL="false"
+    from="SMEcloud@bfinformatica.com"
+    fromDescription="BFinformatica - SMEcloud"
+    timeout="30000"
+    
+    defaultSubject="Distillerie Di Lorenzo - Allarmi SME Cloud "
+    defaultMessage="Testo Testo Testo Testo Testo Testo"
+    defaultAttachment=""
+  />
+</mailSenderConfig>

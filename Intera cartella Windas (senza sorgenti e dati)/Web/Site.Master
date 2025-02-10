@@ -1,0 +1,144 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="NewBfWeb.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %></title>
+
+<%--    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>--%>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="../Scripts/popper.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/Content/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap/dashboard.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
+    <%
+        if(System.Configuration.ConfigurationManager.AppSettings["Style"] != "")
+            Response.Write("<link rel='stylesheet' type='text/css' href='" + System.Configuration.ConfigurationManager.AppSettings["Style"] + "' />");
+    %>
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+        <% NewBfWeb.classi.Languages lang = new NewBfWeb.classi.Languages(); %>
+        <% NewBfWeb.classi.Utility utility = new NewBfWeb.classi.Utility(); %>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <img src="../Img/bf_logo.png" alt="Logo Bf" />
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link disabled" href="#" id="date_time"></a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="fas fa-user"></i>&nbsp;<% Response.Write(lang["benvenuto"]); %>&nbsp;<% Response.Write(Session["username"]); %>
+                        </a>
+                        <div id="utenti_dropdown" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="#"><% Response.Write(lang["utenti_attivi"]); %>:</a>
+                            <%
+                                foreach (string u in Application["Users"].ToString().Split('|'))
+                                    if (u != "")
+                                        Response.Write("<a class=\"dropdown-item\" href=\"#\">" + u + "</a>");
+                            %>
+                        </div>
+                    </li>
+                </ul>
+                <div style="color: white;font-size: 31px;margin: 0 auto;"><% Response.Write(utility.GetNomeImpianto()); %></div>
+                <a href="../Login.aspx?cmd=logout" class="btn btn-primary my-2 my-sm-0" type="submit"><i class="fas fa-sign-out-alt"></i>Logout</a>
+            </div>
+        </nav>
+        <div class="container-fluid body-content">
+            <div class="row">
+                <nav class="col-1 d-none d-md-block bg-light sidebar" id="barra_menu">
+                    <div class="sidebar-sticky">
+                        <ul class="nav flex-column">
+                            <%
+                                utility.Dispose();
+                                string path = HttpContext.Current.Request.Url.AbsoluteUri;
+                                path = path.Remove(0, path.IndexOf("/") + 1);
+                                path = path.Remove(0, path.IndexOf("/") + 1);
+                                path = ".." + path.Remove(0, path.IndexOf("/"));
+                                //NewBfWeb.classi.Menu menu = new NewBfWeb.classi.Menu(path, (bool)this.Session["Admin"]);
+                                NewBfWeb.classi.TipoUtente tipo = (NewBfWeb.classi.TipoUtente)Enum.Parse(typeof(NewBfWeb.classi.TipoUtente), this.Session["Tipo"].ToString());
+                                NewBfWeb.classi.Menu menu = new NewBfWeb.classi.Menu(path, tipo);
+                                var elem = from q in menu.Elements
+                                           orderby q.Ordine
+                                           select q;
+                                foreach(var e in elem)
+                                {
+                                    if (((tipo == NewBfWeb.classi.TipoUtente.Admin) && (!e.Admin)) || ((tipo == NewBfWeb.classi.TipoUtente.ARPAV) && (!e.Arpav)) || ((tipo == NewBfWeb.classi.TipoUtente.Cliente) && (!e.Cliente)))
+                                        continue;
+                                    Response.Write("<li class=\"nav-item\">");
+                                    if (e.Nome == "allarmi_stati")
+                                    {
+                                        Response.Write("<div id=\"cont_notifiche\"><span class=\"badge badge-pill badge-danger\" id=\"notificaAllarmi\"></span><br />");
+                                        Response.Write("<span class=\"badge badge-pill badge-primary\" id=\"notificaStati\"></span></div>");
+                                    }
+                                    if(e.Path == path)
+                                        Response.Write("<a class=\"nav-link active\" href=\"" + e.Path + "\">");
+                                    else
+                                        Response.Write("<a class=\"nav-link\" href=\"" + e.Path + "\">");
+                                    Response.Write(e.Icon + " " + lang[e.Nome]);
+                                    Response.Write("</a>");
+                                    if (e.Children.Count > 0)
+                                    {
+                                        Response.Write("<ul class=\"ml-3 nav flex-column\">");
+                                        var children = from q in e.Children
+                                                       orderby q.Ordine
+                                                       select q;
+                                        foreach(var c in children)
+                                        {
+                                            if (((tipo == NewBfWeb.classi.TipoUtente.Admin) && (c.Admin)) || ((tipo == NewBfWeb.classi.TipoUtente.ARPAV) && (c.Arpav)) || ((tipo == NewBfWeb.classi.TipoUtente.Cliente) && (c.Cliente)))
+                                            {
+                                                Response.Write("<li class=\"nav-item\">");
+                                                if (c.Path == path)
+                                                    Response.Write("<a class=\"nav-link active\" href=\"" + c.Path + "\">");
+                                                else
+                                                    Response.Write("<a class=\"nav-link\" href=\"" + c.Path + "\">");
+                                                Response.Write(c.Icon + " " + lang[c.Nome]);
+                                                Response.Write("</a></li>");
+                                            }
+                                        }
+                                        Response.Write("</ul>");
+                                    }
+                                    Response.Write("</li>");
+                                }
+                            %>
+                        </ul>
+                    </div>
+                </nav>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <script src="../Scripts/orologio.js"></script>
+    </form>
+</body>
+</html>

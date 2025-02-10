@@ -1,0 +1,38 @@
+14/11/2018 11.21.37 Avviato modulo BFLab
+14/11/2018 11.29.29 Avviato modulo BFLab
+14/11/2018 11.29.41 UpdateParCal: query aggiornamento configurazione misure n° 0 per il parametro PLV_TQ non eseguita correttamente
+14/11/2018 11.29.42 UpdateParCal: query aggiornamento configurazione misure n° 1 per il parametro PLV_TQ non eseguita correttamente
+14/11/2018 11.29.43 UpdateParCal: query aggiornamento configurazione misure n° 2 per il parametro PLV_TQ non eseguita correttamente
+14/11/2018 11.29.43 UpdateParCal: query aggiornamento configurazione misure n° 3 per il parametro PLV_TQ non eseguita correttamente
+14/11/2018 11.29.43 UpdateParCal: query aggiornamento configurazione misure n° 4 per il parametro PLV_TQ non eseguita correttamente
+14/11/2018 11.29.43 UpdateParCal: query aggiornamento configurazione misure n° 5 per il parametro PLV_TQ non eseguita correttamente
+14/11/2018 11.29.43 UpdateParCal: query aggiornamento configurazione misure n° 6 per il parametro PLV_TQ non eseguita correttamente
+14/11/2018 11.30.56 Avviato modulo BFLab
+14/11/2018 11.32.50 Avviato modulo BFLab
+14/11/2018 11.34.06 Avviato modulo BFLab
+14/11/2018 11.34.11 WindasFwk Query=UPDATE WAS_MEASURES SET C41= '0,2' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.34.17 WindasFwk Query=UPDATE WAS_MEASURES SET C42= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.34.17 WindasFwk Query=UPDATE WAS_MEASURES SET C43= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.34.17 WindasFwk Query=UPDATE WAS_MEASURES SET C44= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.34.17 WindasFwk Query=UPDATE WAS_MEASURES SET C45= '20181114' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.34.17 WindasFwk Query=UPDATE WAS_MEASURES SET C58= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.34.18 WindasFwk Query=UPDATE WAS_MEASURES SET C59= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.37.17 Avviato modulo BFLab
+14/11/2018 11.37.19 Rientro da anomalia recupero dati
+14/11/2018 11.38.01 WindasFwk Query=UPDATE WAS_MEASURES SET C41= '0,4' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.38.01 WindasFwk Query=UPDATE WAS_MEASURES SET C42= '1' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.38.01 WindasFwk Query=UPDATE WAS_MEASURES SET C43= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.38.01 WindasFwk Query=UPDATE WAS_MEASURES SET C44= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.38.01 WindasFwk Query=UPDATE WAS_MEASURES SET C45= '20181114' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.38.01 WindasFwk Query=UPDATE WAS_MEASURES SET C58= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.38.01 WindasFwk Query=UPDATE WAS_MEASURES SET C59= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.39.02 WindasFwk Query=UPDATE WAS_MEASURES SET C41= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.39.02 WindasFwk Query=UPDATE WAS_MEASURES SET C42= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.39.02 WindasFwk Query=UPDATE WAS_MEASURES SET C43= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.39.02 WindasFwk Query=UPDATE WAS_MEASURES SET C44= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.39.02 WindasFwk Query=UPDATE WAS_MEASURES SET C45= '20181114' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.39.02 WindasFwk Query=UPDATE WAS_MEASURES SET C58= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 11.39.02 WindasFwk Query=UPDATE WAS_MEASURES SET C59= '0' WHERE C2='PLV_TQ' AND CM_StationCode = 'CEMS1'
+14/11/2018 12.29.03 Avviato modulo BFLab
+14/11/2018 12.30.18 Avviato modulo BFLab
+14/11/2018 12.30.24 Rientro da anomalia recupero dati

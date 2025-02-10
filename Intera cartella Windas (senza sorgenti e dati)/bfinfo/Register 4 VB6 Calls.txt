@@ -1,0 +1,9 @@
+
+****************************************************************************
+*** Le Classi da esporre a COM devono implementare un metodo NEw vuoto.  ***
+****************************************************************************
+
+
+
+
+regasm windasworldobj.dll /codebase

@@ -1,0 +1,707 @@
+14/09/2018 12.27.22	GetConnectionParam System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'bf'.
+   in System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   in System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   in System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.Gestione..ctor(String path_connessioni_xml)
+   in WindasNet.Utili.GetConnectionParams() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\Utili.vb:riga 9
+ClientConnectionId:2e944188-2604-4f25-a2a8-c39ae12d9043
+Error Number:4060,State:1,Class:11
+14/09/2018 12.27.22	GestioneLinee errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneLinee() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 330
+14/09/2018 12.27.22	CaricaDati errore: System.ArgumentNullException: Il valore non può essere null.
+Nome parametro: L'argomento 'Array' è Nothing.
+   in Microsoft.VisualBasic.Information.UBound(Array Array, Int32 Rank)
+   in WindasNet.FrmMain.CaricaDati() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 297
+14/09/2018 12.27.23	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.23	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.23	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.24	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.24	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.24	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.25	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.25	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.25	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.26	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.26	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.26	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.27	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.27	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.27	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.28	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.28	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.28	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.29	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.29	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.29	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.30	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.30	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.30	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.31	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.31	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.31	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.32	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.32	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.32	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.33	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.33	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.33	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.33	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.33	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.33	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.33	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.33	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.33	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.33	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.33	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.33	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.33	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.33	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.33	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.33	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.34	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.34	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.34	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.35	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.35	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.35	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.36	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.36	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.36	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.37	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.37	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.37	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.38	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.38	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.38	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.39	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433
+14/09/2018 12.27.39	GestioneSinottico errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneAllarmi() in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 506
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.39	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.40	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.40	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.40	GestioneCasella errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.GestioneCasella(Object TipoTag) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 598
+14/09/2018 12.27.40	Timer1 errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 433

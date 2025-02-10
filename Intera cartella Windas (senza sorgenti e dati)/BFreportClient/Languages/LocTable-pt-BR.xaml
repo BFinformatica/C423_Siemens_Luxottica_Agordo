@@ -1,0 +1,21 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    xml:space="preserve">
+    
+    <!--Pagina report-->
+    <!--PageReport.xaml-->
+    <sys:String x:Key="loc_cmbLine">Linha</sys:String>
+    <sys:String x:Key="loc_cmbReport">Tipo de relatório</sys:String>
+    <sys:String x:Key="loc_btnExecuteReport">Executar relatório</sys:String>
+    <sys:String x:Key="loc_cmbYear">Ano</sys:String>
+    <sys:String x:Key="loc_cmbMonth">Dês</sys:String>
+    <sys:String x:Key="loc_cmbDate">Data</sys:String>
+    <sys:String x:Key="loc_cmbEndDate">Data final</sys:String>
+    <sys:String x:Key="loc_btnOpenTrendUtility">Abra o utilitário de tendência</sys:String>
+    <sys:String x:Key="loc_strReportInProgress">Relatório em curso</sys:String>
+    <sys:String x:Key="loc_strCloseExcelIstance">Por favor, feche istance Excel</sys:String>
+    <sys:String x:Key="loc_strProblemWithDB">Problema com DB!</sys:String>
+    
+</ResourceDictionary>

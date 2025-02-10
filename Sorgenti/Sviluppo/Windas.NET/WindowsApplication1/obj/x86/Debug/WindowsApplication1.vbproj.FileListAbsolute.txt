@@ -1,0 +1,9 @@
+C:\Sviluppo\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Sviluppo\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Sviluppo\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb

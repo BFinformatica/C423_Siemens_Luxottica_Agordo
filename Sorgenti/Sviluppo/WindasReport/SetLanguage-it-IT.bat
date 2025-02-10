@@ -1,0 +1,1 @@
+copy c:\windas\bfinfo\LocTable-it-IT.ini c:\windas\bfinfo\LocTable.ini /y

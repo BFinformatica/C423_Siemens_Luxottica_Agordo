@@ -1,0 +1,197 @@
+<xml>
+	<PathConnectionXml Desc="Percorso del file connections.xml">C:\Windas\bftrend\connections.xml</PathConnectionXml>
+	<MaxDays Desc="Massimo di giorni elaborabili nel grafico">62</MaxDays>
+	<TabellaNormalizzati Desc="Nome tabella dati normalizzati">DT_VALUE</TabellaNormalizzati>
+	<TabellaTalQuali Desc="Nome tabella dati tal quali">DT_VALUETQ</TabellaTalQuali>
+	<TabellaMedieOrarie Desc="Nome tabella dati medie orarie">WDS_ELAB</TabellaMedieOrarie>
+	<TabellaMedieSemiOrarie Desc="Nome tabella medie semiorarie">WDS_HALF</TabellaMedieSemiOrarie>
+	<CampoValoreMassimo Desc="Nome campo dove è salvato il valore massimo">C10</CampoValoreMassimo>
+	<CampoValoreMinimo Desc="Nome campo dove è salvato il valore minimo">C8</CampoValoreMinimo>
+	<TabellaConfig Desc="Nome tabella di configurazione">was_config</TabellaConfig>
+	<CampoSettaggioMedie Desc="Nome del campo di settaggio delle medie abilitate">CC_Value</CampoSettaggioMedie>
+	<TabellaConfig Desc="Nome tabella di configurazione">was_config</TabellaConfig>
+	<FiltroMisure Desc="Filtro sulle unità di misura">700</FiltroMisure>
+	<Tabella10MinCo Desc="Nome della tabella per i dati 10 minuti CO">WDS_10minco</Tabella10MinCo>
+	<RealHeight Desc="Altezza reale del grafico">5580</RealHeight>
+	<RealWidth Desc="Larghezza reale del grafico">6518</RealWidth>
+	<MaxMisureElementari Desc="Massimo numero di misure elemetari caricabile">2</MaxMisureElementari>
+	<MaxMisure Desc="Massimo numero di misure caricabile">6</MaxMisure>
+	<PathDatiArpa Desc="Percorso dei file elementarri per l'arpa">C:\Windas\Windas031\DatiArpa</PathDatiArpa>
+	<LANG Desc="Lingua Selezionata Esempio: IT-IT, en-GB, ru-RU, pt-PT">en-GB</LANG>
+	<Traduzioni>
+		<Trad Key="SEL_STAZ">
+			<it_IT>Seleziona Stazione</it_IT>
+			<en_US>Select Station</en_US>
+			<ru_RU>Выберите станцию</ru_RU>
+			<pt_PT>Selecione Estação</pt_PT>
+		</Trad>
+		<Trad Key="SEL_TIPO_MEDIA">
+			<it_IT>Seleziona il tipo di media</it_IT>
+			<en_US>Select the type of media</en_US>
+			<ru_RU>Выберите тип носителя</ru_RU>
+			<pt_PT>Selecione o tipo de mídia</pt_PT>
+		</Trad>
+		<Trad Key="SEL_TIPO_DATO">
+			<it_IT>Seleziona il tipo di dato</it_IT>
+			<en_US>Select data type</en_US>
+			<ru_RU>Выберите тип данных</ru_RU>
+			<pt_PT>Selecione o tipo de dados</pt_PT>
+		</Trad>
+		<Trad Key="DAL_DATA">
+			<it_IT>Dal</it_IT>
+			<en_US>From</en_US>
+			<ru_RU>С</ru_RU>
+			<pt_PT>De</pt_PT>
+		</Trad>
+		<Trad Key="AL_DATA">
+			<it_IT>Al</it_IT>
+			<en_US>To</en_US>
+			<ru_RU>до</ru_RU>
+			<pt_PT>Para</pt_PT>
+		</Trad>
+		<Trad Key="DESC">
+			<it_IT>Descrizione</it_IT>
+			<en_US>Description</en_US>
+			<ru_RU>описание</ru_RU>
+			<pt_PT>Descrição</pt_PT>
+		</Trad>
+		<Trad Key="UNIT_MIS">
+			<it_IT>Unità di misura</it_IT>
+			<en_US>Measurement unit</en_US>
+			<ru_RU>Единица измерения</ru_RU>
+			<pt_PT>Unidade de medição</pt_PT>
+		</Trad>
+		<Trad Key="GENERA">
+			<it_IT>Genera</it_IT>
+			<en_US>Generate</en_US>
+			<ru_RU>Генерировать</ru_RU>
+			<pt_PT>Gerar</pt_PT>
+		</Trad>
+		<Trad Key="ERROR_1">
+			<it_IT>Nessuna tabella di dati elementari trovata per il giorno</it_IT>
+			<en_US>No elementary data table found for the day</en_US>
+			<ru_RU>Не найдено ни одной таблицы элементарных данных за день</ru_RU>
+			<pt_PT>Nenhuma tabela de dados elementar encontrada para o dia</pt_PT>
+		</Trad>
+		<Trad Key="ERROR_2">
+			<it_IT>Nessuna file di dati elementari trovato per il giorno</it_IT>
+			<en_US>No elementary data files found for the day</en_US>
+			<ru_RU>Нет файлов элементарных данных за день</ru_RU>
+			<pt_PT>Nenhum arquivo de dados elementar encontrado para o dia</pt_PT>
+		</Trad>
+		<Trad Key="PERCENTUALE">
+			<it_IT>Percentuale (%)</it_IT>
+			<en_US>Percentage (%)</en_US>
+			<ru_RU>процент (%)</ru_RU>
+			<pt_PT>Percentagem (%)</pt_PT>
+		</Trad>
+		<Trad Key="DATA">
+			<it_IT>Data</it_IT>
+			<en_US>Date</en_US>
+			<ru_RU>Дата</ru_RU>
+			<pt_PT>Data</pt_PT>
+		</Trad>
+		<Trad Key="ORE">
+			<it_IT>Ore</it_IT>
+			<en_US>Hours</en_US>
+			<ru_RU>Часов</ru_RU>
+			<pt_PT>Horas</pt_PT>
+		</Trad>
+		<Trad Key="SEMIORE">
+			<it_IT>Semiore</it_IT>
+			<en_US>Half hours</en_US>
+			<ru_RU>Пол часа</ru_RU>
+			<pt_PT>Meia hora</pt_PT>
+		</Trad>
+		<Trad Key="10_MINUTI">
+			<it_IT>10 minuti CO</it_IT>
+			<en_US>10 minutes CO</en_US>
+			<ru_RU>10 минут CO</ru_RU>
+			<pt_PT>10 minutos CO</pt_PT>
+		</Trad>
+		<Trad Key="NORMALIZZATI">
+			<it_IT>Normalizzati</it_IT>
+			<en_US>Normalized</en_US>
+			<ru_RU>Нормированный</ru_RU>
+			<pt_PT>Normalizada</pt_PT>
+		</Trad>
+		<Trad Key="TALQUALI">
+			<it_IT>Tal quali</it_IT>
+			<en_US>Such as</en_US>
+			<ru_RU>Такие, как</ru_RU>
+			<pt_PT>Tais como</pt_PT>
+		</Trad>
+		<Trad Key="ELEMENTARI">
+			<it_IT>Elementari</it_IT>
+			<en_US>Elementary</en_US>
+			<ru_RU>Элементарный</ru_RU>
+			<pt_PT>Elementar</pt_PT>
+		</Trad>
+    <Trad Key="SALVA_PDF">
+      <it_IT>Salva pdf</it_IT>
+      <en_US>Save pdf</en_US>
+      <ru_RU>Сохранить pdf</ru_RU>
+      <pt_PT>Salvar pdf</pt_PT>
+    </Trad>
+    <Trad Key="RESET_GRAFICO">
+      <it_IT>Resetta grafico</it_IT>
+      <en_US>Reset chart</en_US>
+      <ru_RU>Сброс диаграммы</ru_RU>
+      <pt_PT>Repor gráfico</pt_PT>
+    </Trad>
+    <Trad Key="ZOOM+">
+      <it_IT>Zoom +</it_IT>
+      <en_US>Zoom +</en_US>
+      <ru_RU>Zoom +</ru_RU>
+      <pt_PT>Zoom +</pt_PT>
+    </Trad>
+    <Trad Key="ZOOM-">
+      <it_IT>Zoom -</it_IT>
+      <en_US>Zoom -</en_US>
+      <ru_RU>Zoom -</ru_RU>
+      <pt_PT>Zoom -</pt_PT>
+    </Trad>
+    <Trad Key="ESTENDI_GRAFICO">
+      <it_IT>Estendi grafico</it_IT>
+      <en_US>Extend chart</en_US>
+      <ru_RU>Увеличить диаграмму</ru_RU>
+      <pt_PT>Estenda o gráfico</pt_PT>
+    </Trad>
+    <Trad Key="ZOOM_ORA">
+      <it_IT>Zoom per Ora</it_IT>
+      <en_US>Zoom for Hour</en_US>
+      <ru_RU>Увеличить на час</ru_RU>
+      <pt_PT>Zoom por hora</pt_PT>
+    </Trad>
+    <Trad Key="VAL_SEL">
+      <it_IT>Valore selezionato</it_IT>
+      <en_US>Selected value</en_US>
+      <ru_RU>Выбранное значение</ru_RU>
+      <pt_PT>Valor selecionado</pt_PT>
+    </Trad>
+    <Trad Key="VALORE">
+      <it_IT>Valore</it_IT>
+      <en_US>Value</en_US>
+      <ru_RU>Стоимость</ru_RU>
+      <pt_PT>Valor</pt_PT>
+    </Trad>
+    <Trad Key="MISURE">
+      <it_IT>Misure</it_IT>
+      <en_US>Measurements</en_US>
+      <ru_RU>Измерения</ru_RU>
+      <pt_PT>Medições</pt_PT>
+    </Trad>
+    <Trad Key="NO_DATA_DISPLAY">
+      <it_IT>Nessun dato da visualizzare...</it_IT>
+      <en_US>No data to display...</en_US>
+      <ru_RU>Нет данных для отображения...</ru_RU>
+      <pt_PT>Nenhum dado a ser exibido...</pt_PT>
+    </Trad>
+	<Trad Key="CARICA_MISURE">
+      <it_IT>Carica misure</it_IT>
+      <en_US>Load measure</en_US>
+      <ru_RU></ru_RU>
+      <pt_PT></pt_PT>
+    </Trad>
+	</Traduzioni>
+</xml>

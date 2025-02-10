@@ -1,0 +1,5 @@
+10/02/2025 11.02.33 Avviato BFdata
+10/02/2025 11.02.33 BFData Form_Load Non è possibile aprire il database "bfdata" richiesto dall'account di accesso. L'accesso non è riuscito.
+10/02/2025 11.02.33 BFData Form_Load Field not found ! : 
+-> gt_Value
+10/02/2025 11.02.33 BFData Form_Load Non è possibile aprire il database "bfdata" richiesto dall'account di accesso. L'accesso non è riuscito.

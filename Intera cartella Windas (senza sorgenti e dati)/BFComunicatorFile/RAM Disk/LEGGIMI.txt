@@ -1,0 +1,1 @@
+Ricordarsi di verificare che al riavvio del pc il ramdisk risulti formattato e con la opportuna lettera associata. L'immagine .img del disco fornita dovrebbe essere un ntfs da 32mb già formattato.

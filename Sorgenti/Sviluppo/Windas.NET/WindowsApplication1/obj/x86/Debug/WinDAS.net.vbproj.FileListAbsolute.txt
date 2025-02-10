@@ -1,0 +1,86 @@
+C:\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+C:\Sviluppo\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Sviluppo\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Sviluppo\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.FrmMain.resources
+C:\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WinDAS.net.vbproj.GenerateResource.Cache
+C:\Commesse\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Commesse\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Commesse\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+C:\Commesse\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Commesse\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Commesse\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Commesse\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.FrmMain.resources
+C:\Commesse\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Commesse\WinDAS.net\WindowsApplication1\obj\x86\Debug\WinDAS.net.vbproj.GenerateResource.Cache
+C:\Windas\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Windas\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Windas\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+C:\Windas\Sviluppo\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Windas\Sviluppo\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Windas\Sviluppo\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Windas\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.FrmMain.resources
+C:\Windas\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Windas\Sviluppo\WinDAS.net\WindowsApplication1\obj\x86\Debug\WinDAS.net.vbproj.GenerateResource.Cache
+C:\Commesse\Cassino2\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Commesse\Cassino2\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Commesse\Cassino2\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+C:\Commesse\Cassino2\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Commesse\Cassino2\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Commesse\Cassino2\WinDAS.net\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Commesse\Cassino2\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.FrmMain.resources
+C:\Commesse\Cassino2\WinDAS.net\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Commesse\Cassino2\WinDAS.net\WindowsApplication1\obj\x86\Debug\WinDAS.net.vbproj.GenerateResource.Cache
+C:\Commesse\C996.089 - Alpiq InTec Italia FIAT Cassino\Tecnico\Sorgenti\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Commesse\C996.089 - Alpiq InTec Italia FIAT Cassino\Tecnico\Sorgenti\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Commesse\C996.089 - Alpiq InTec Italia FIAT Cassino\Tecnico\Sorgenti\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti_Cassino\Windas.NET\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti_Cassino\Windas.NET\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti_Cassino\Windas.NET\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti_Cassino\Windas.NET\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti_Cassino\Windas.NET\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti_Cassino\Windas.NET\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti_Cassino\Windas.NET\WindowsApplication1\obj\x86\Debug\WindowsApplication1.FrmMain.resources
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti_Cassino\Windas.NET\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti_Cassino\Windas.NET\WindowsApplication1\obj\x86\Debug\WinDAS.net.vbproj.GenerateResource.Cache
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\WindasNET.exe.manifest
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\WindasNET.application
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\WindasNET.exe
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\WindasNET.pdb
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\WindasNET.xml
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\GestioneDatabase.dll
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\MySql.Data.dll
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WinDAS.net.vbprojResolveAssemblyReference.cache
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindasNet.FrmMain.resources
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindasNet.Resources.resources
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WinDAS.net.vbproj.GenerateResource.Cache
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindasNET.exe.manifest
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindasNET.application
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindasNET.exe
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindasNET.xml
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindasNET.pdb
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindasNET.exe
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindasNET.xml
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindasNET.pdb
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\WindasNET.exe.manifest
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\WindasNET.application
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\WindasNET.exe
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\WindasNET.pdb
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\WindasNET.xml
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\GestioneDatabase.dll
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\MySql.Data.dll
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WinDAS.net.vbprojResolveAssemblyReference.cache
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindasNet.FrmMain.resources
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindasNet.Resources.resources
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WinDAS.net.vbproj.GenerateResource.Cache
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindasNET.exe.manifest
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Debug\WindasNET.application
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\CefSharp.Core.dll
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\CefSharp.dll
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\CefSharp.WinForms.dll
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\CefSharp.WinForms.xml
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\CefSharp.xml
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Debug\CefSharp.Core.xml

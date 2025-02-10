@@ -1,0 +1,12 @@
+13/07/2018 15.41.11	Linea.CaricaMisure errore: System.InvalidCastException: Cast non valido dal tipo 'DBNull' al tipo 'String'.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   in WindasNet.Linea.CaricaMisure() in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 73
+13/07/2018 15.41.11	Linea.CaricaMisure errore: System.InvalidCastException: Cast non valido dal tipo 'DBNull' al tipo 'String'.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   in WindasNet.Linea.CaricaMisure() in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 73
+13/07/2018 15.41.11	VisualizzaDati_TabConfigurazione errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.VariabiliPubbliche.Misura.GetSogliaByChiave(String key) in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\VariabiliPubbliche.vb:riga 20
+   in WindasNet.FrmMain.VisualizzaDati_TabConfigurazione() in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 107
+13/07/2018 15.41.11	VisualizzaDati_TabConfigurazione errore: System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in WindasNet.VariabiliPubbliche.Misura.GetSogliaByChiave(String key) in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\VariabiliPubbliche.vb:riga 20
+   in WindasNet.FrmMain.VisualizzaDati_TabConfigurazione() in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 107

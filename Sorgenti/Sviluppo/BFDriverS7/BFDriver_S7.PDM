@@ -1,0 +1,108 @@
+[Root]
+Most Recent Package=Setup_BFDriver_S7
+
+
+[Package|Setup_BFDriver_S7|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Michele\Progetti\SIEMENS\C996-028 Edison Taranto\PC Portatile\Driver S7 Siemens\Sorgente\Setup BFDriver_S7
+
+[Package|Setup_BFDriver_S7|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup_BFDriver_S7|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup_BFDriver_S7|Files Found]
+
+[Package|Setup_BFDriver_S7|Files Released]
+
+[Package|Setup_BFDriver_S7|Missing Dependency Information]
+D:\Michele\Progetti\SIEMENS\C996-028 Edison Taranto\PC Portatile\Driver S7 Siemens\Sorgente\S7TCPIP.dll=
+
+[Package|Setup_BFDriver_S7|Out-of-Date Dependency Information]
+
+[Package|Setup_BFDriver_S7|Files Added]
+
+[Package|Setup_BFDriver_S7|Files Removed]
+
+[Package|Setup_BFDriver_S7|Files In Project]
+D:\Michele\Progetti\SIEMENS\C996-028 Edison Taranto\PC Portatile\Driver S7 Siemens\Sorgente\BFDriver_S7.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6IT.DLL=Yes
+D:\Michele\Progetti\SIEMENS\C996-028 Edison Taranto\PC Portatile\Driver S7 Siemens\Sorgente\S7TCPIP.dll=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\STDFTIT.DLL=Yes
+C:\Windows\System32\MSCOMM32.OCX=Yes
+C:\Windows\System32\MSCOMIT.DLL=Yes
+C:\Windows\System32\TABCTL32.OCX=Yes
+C:\Windows\System32\TABCTIT.DLL=Yes
+C:\Program Files\Janus Systems Components\Janus GridEX 2000\OCXs Files\GridEX20.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Setup_BFDriver_S7|Configure Registry Files]
+Applicable=No
+
+[Package|Setup_BFDriver_S7|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup_BFDriver_S7|Install Locations]
+D:\Michele\Progetti\SIEMENS\C996-028 Edison Taranto\PC Portatile\Driver S7 Siemens\Sorgente\BFDriver_S7.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6IT.DLL=$(WinSysPath)
+D:\Michele\Progetti\SIEMENS\C996-028 Edison Taranto\PC Portatile\Driver S7 Siemens\Sorgente\S7TCPIP.dll=$(AppPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\STDFTIT.DLL=$(WinSysPath)
+C:\Windows\System32\MSCOMM32.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMIT.DLL=$(WinSysPath)
+C:\Windows\System32\TABCTL32.OCX=$(WinSysPath)
+C:\Windows\System32\TABCTIT.DLL=$(WinSysPath)
+C:\Program Files\Janus Systems Components\Janus GridEX 2000\OCXs Files\GridEX20.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Setup_BFDriver_S7|Configure Shared Files]
+Applicable=Yes
+D:\Michele\Progetti\SIEMENS\C996-028 Edison Taranto\PC Portatile\Driver S7 Siemens\Sorgente\BFDriver_S7.exe=No
+D:\Michele\Progetti\SIEMENS\C996-028 Edison Taranto\PC Portatile\Driver S7 Siemens\Sorgente\S7TCPIP.dll=No
+
+[Package|Setup_BFDriver_S7|Distribution]
+Type=single
+Size=
+Title=BFDriver_S7
+
+[Package|Setup_BFDriver_S7|IconGroups]
+Group0=BFDriver_S7
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Setup_BFDriver_S7|BFDriver_S7]
+Icon1=BFDriver_S7.exe
+Title1=BFDriver_S7
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Setup_BFDriver_S7|Package]
+PackageFolder=D:\Michele\Progetti\SIEMENS\C996-028 Edison Taranto\PC Portatile\Driver S7 Siemens\Sorgente\Setup BFDriver_S7
+ProjectFolder=D:\Michele\Progetti\SIEMENS\C996-028 Edison Taranto\PC Portatile\Driver S7 Siemens\Sorgente
+ServerSideCab=
+File1=D:\Michele\Progetti\SIEMENS\C996-028 Edison Taranto\PC Portatile\Driver S7 Siemens\Sorgente\Setup BFDriver_S7\setup.exe
+File2=D:\Michele\Progetti\SIEMENS\C996-028 Edison Taranto\PC Portatile\Driver S7 Siemens\Sorgente\Setup BFDriver_S7\Setup.Lst
+File3=D:\Michele\Progetti\SIEMENS\C996-028 Edison Taranto\PC Portatile\Driver S7 Siemens\Sorgente\Setup BFDriver_S7\BFDriver_S7.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

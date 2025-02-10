@@ -1,0 +1,1 @@
+cmd /c start /min C:\Windas\AvvioRitardatoEseguibili.bat

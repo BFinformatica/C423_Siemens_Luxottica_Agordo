@@ -1,0 +1,1 @@
+bfdata.exe auto 2

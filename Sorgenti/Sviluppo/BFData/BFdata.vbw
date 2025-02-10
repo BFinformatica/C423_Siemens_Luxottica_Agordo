@@ -1,0 +1,13 @@
+Generic = 101, 35, 1596, 919, 
+Form1 = 66, 87, 944, 712, C, 55, 16, 820, 408, C
+WinCC = 25, 25, 1358, 672, 
+OPC = 140, 14, 1306, 787, C, 175, 175, 1341, 948, C
+GestioneDatabase = 120, 120, 1311, 781, 
+LeggiConfigurazione = 113, 30, 1304, 691, C
+modDate = 0, 0, 0, 0, C
+Flussi = 150, 150, 1341, 811, C
+ElabAggMedia = 90, 90, 1281, 751, 
+ElabSalvaDati = 133, 148, 1324, 809, 
+Utili = 180, 180, 1371, 841, C
+DatiSAD = 0, 0, 1191, 661, 
+Elementari = 150, 150, 1341, 811, C

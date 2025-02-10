@@ -1,0 +1,503 @@
+13/07/2018 14.49.17	VisualizzaDati_TabQAL2QAL3 errore: System.InvalidCastException: Cast non valido dalla stringa "20180712" al tipo 'Date'.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(Object Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeIntrinsicType(Object Expression, Type TargetType)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeType(Object Expression, Type TargetType, Boolean Dynamic)
+   in Microsoft.VisualBasic.CompilerServices.OverloadResolution.PassToParameter(Object Argument, ParameterInfo Parameter, Type ParameterType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.ConstructCallArguments(Method TargetProcedure, Object[] Arguments, BindingFlags LookupFlags)
+   in Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase, CallType CallType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments)
+   in WindasNet.FrmMain.VisualizzaDati_TabQAL2QAL3() in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 82
+13/07/2018 15.01.55	Linea.CaricaMisure errore: System.ArgumentNullException: Il valore non può essere null.
+Nome parametro: destinationArray
+   in System.Array.Copy(Array sourceArray, Array destinationArray, Int32 length)
+   in WindasNet.Linea.CaricaMisure() in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 53
+13/07/2018 15.01.55	Linea.CaricaMisure errore: System.ArgumentNullException: Il valore non può essere null.
+Nome parametro: destinationArray
+   in System.Array.Copy(Array sourceArray, Array destinationArray, Int32 length)
+   in WindasNet.Linea.CaricaMisure() in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 53
+13/07/2018 15.10.00	Linea.CaricaMisure errore: System.ArgumentException: Lunghezza della matrice di destinazione insufficiente. Controllare destIndex, la lunghezza e i limiti inferiori della matrice.
+   in System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   in System.Array.CopyTo(Array array, Int32 index)
+   in WindasNet.Linea.CaricaMisure() in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 54
+13/07/2018 15.11.27	Linea.CaricaMisure errore: System.ArgumentException: Lunghezza della matrice di destinazione insufficiente. Controllare destIndex, la lunghezza e i limiti inferiori della matrice.
+   in System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   in System.Array.CopyTo(Array array, Int32 index)
+   in WindasNet.Linea.CaricaMisure()
+13/07/2018 15.14.49	VisualizzaDati_TabQAL2QAL3 errore: System.InvalidCastException: Cast non valido dalla stringa "20180712" al tipo 'Date'.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(Object Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeIntrinsicType(Object Expression, Type TargetType)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeType(Object Expression, Type TargetType, Boolean Dynamic)
+   in Microsoft.VisualBasic.CompilerServices.OverloadResolution.PassToParameter(Object Argument, ParameterInfo Parameter, Type ParameterType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.ConstructCallArguments(Method TargetProcedure, Object[] Arguments, BindingFlags LookupFlags)
+   in Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase, CallType CallType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments)
+   in WindasNet.FrmMain.VisualizzaDati_TabQAL2QAL3()
+13/07/2018 15.14.54	VisualizzaDati_TabQAL2QAL3 errore: System.InvalidCastException: Cast non valido dalla stringa "20180712" al tipo 'Date'.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(Object Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeIntrinsicType(Object Expression, Type TargetType)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeType(Object Expression, Type TargetType, Boolean Dynamic)
+   in Microsoft.VisualBasic.CompilerServices.OverloadResolution.PassToParameter(Object Argument, ParameterInfo Parameter, Type ParameterType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.ConstructCallArguments(Method TargetProcedure, Object[] Arguments, BindingFlags LookupFlags)
+   in Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase, CallType CallType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments)
+   in WindasNet.FrmMain.VisualizzaDati_TabQAL2QAL3()
+13/07/2018 15.14.58	VisualizzaDati_TabQAL2QAL3 errore: System.InvalidCastException: Cast non valido dalla stringa "20180712" al tipo 'Date'.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(Object Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeIntrinsicType(Object Expression, Type TargetType)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeType(Object Expression, Type TargetType, Boolean Dynamic)
+   in Microsoft.VisualBasic.CompilerServices.OverloadResolution.PassToParameter(Object Argument, ParameterInfo Parameter, Type ParameterType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.ConstructCallArguments(Method TargetProcedure, Object[] Arguments, BindingFlags LookupFlags)
+   in Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase, CallType CallType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments)
+   in WindasNet.FrmMain.VisualizzaDati_TabQAL2QAL3()
+13/07/2018 15.15.32	VisualizzaDati_TabQAL2QAL3 errore: System.InvalidCastException: Cast non valido dalla stringa "20180712" al tipo 'Date'.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(Object Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeIntrinsicType(Object Expression, Type TargetType)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeType(Object Expression, Type TargetType, Boolean Dynamic)
+   in Microsoft.VisualBasic.CompilerServices.OverloadResolution.PassToParameter(Object Argument, ParameterInfo Parameter, Type ParameterType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.ConstructCallArguments(Method TargetProcedure, Object[] Arguments, BindingFlags LookupFlags)
+   in Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase, CallType CallType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments)
+   in WindasNet.FrmMain.VisualizzaDati_TabQAL2QAL3() in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 82
+13/07/2018 15.15.32	VisualizzaDati_TabQAL2QAL3 errore: System.InvalidCastException: Cast non valido dalla stringa "20180712" al tipo 'Date'.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(Object Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeIntrinsicType(Object Expression, Type TargetType)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeType(Object Expression, Type TargetType, Boolean Dynamic)
+   in Microsoft.VisualBasic.CompilerServices.OverloadResolution.PassToParameter(Object Argument, ParameterInfo Parameter, Type ParameterType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.ConstructCallArguments(Method TargetProcedure, Object[] Arguments, BindingFlags LookupFlags)
+   in Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase, CallType CallType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments)
+   in WindasNet.FrmMain.VisualizzaDati_TabQAL2QAL3() in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 82
+13/07/2018 15.15.39	VisualizzaDati_TabQAL2QAL3 errore: System.InvalidCastException: Cast non valido dalla stringa "20180712" al tipo 'Date'.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(Object Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeIntrinsicType(Object Expression, Type TargetType)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeType(Object Expression, Type TargetType, Boolean Dynamic)
+   in Microsoft.VisualBasic.CompilerServices.OverloadResolution.PassToParameter(Object Argument, ParameterInfo Parameter, Type ParameterType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.ConstructCallArguments(Method TargetProcedure, Object[] Arguments, BindingFlags LookupFlags)
+   in Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase, CallType CallType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments)
+   in WindasNet.FrmMain.VisualizzaDati_TabQAL2QAL3() in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\FrmMain.vb:riga 82
+13/07/2018 16.07.30	VisualizzaDati_TabQAL2QAL3 errore: System.InvalidCastException: Cast non valido dalla stringa "0" al tipo 'Date'.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(Object Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeIntrinsicType(Object Expression, Type TargetType)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeType(Object Expression, Type TargetType, Boolean Dynamic)
+   in Microsoft.VisualBasic.CompilerServices.OverloadResolution.PassToParameter(Object Argument, ParameterInfo Parameter, Type ParameterType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.ConstructCallArguments(Method TargetProcedure, Object[] Arguments, BindingFlags LookupFlags)
+   in Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase, CallType CallType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments)
+   in WindasNet.FrmMain.VisualizzaDati_TabQAL2QAL3()
+13/07/2018 16.07.30	VisualizzaDati_TabQAL2QAL3 errore: System.InvalidCastException: Cast non valido dalla stringa "0" al tipo 'Date'.
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(Object Value)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeIntrinsicType(Object Expression, Type TargetType)
+   in Microsoft.VisualBasic.CompilerServices.Conversions.ChangeType(Object Expression, Type TargetType, Boolean Dynamic)
+   in Microsoft.VisualBasic.CompilerServices.OverloadResolution.PassToParameter(Object Argument, ParameterInfo Parameter, Type ParameterType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.ConstructCallArguments(Method TargetProcedure, Object[] Arguments, BindingFlags LookupFlags)
+   in Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase, CallType CallType)
+   in Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments)
+   in WindasNet.FrmMain.VisualizzaDati_TabQAL2QAL3()
+13/07/2018 16.18.33	Linea.QAL2AggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   in System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   in System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.QAL2AggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn) in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 195
+ClientConnectionId:b8d97cac-1a25-4b2e-b765-d0baf8a64b51
+Error Number:4060,State:1,Class:11
+13/07/2018 16.19.59	Linea.QAL2AggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   in System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   in System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.QAL2AggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn)
+ClientConnectionId:232ca3bb-5c5f-4939-a525-cfb954d7bafb
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.22	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   in System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   in System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn)
+ClientConnectionId:f5cf4dd6-4dd1-4f83-9749-de7ec46d239b
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.23	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn)
+ClientConnectionId:f5cf4dd6-4dd1-4f83-9749-de7ec46d239b
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.23	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn)
+ClientConnectionId:f5cf4dd6-4dd1-4f83-9749-de7ec46d239b
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.23	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn)
+ClientConnectionId:f5cf4dd6-4dd1-4f83-9749-de7ec46d239b
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.23	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn)
+ClientConnectionId:f5cf4dd6-4dd1-4f83-9749-de7ec46d239b
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.23	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn)
+ClientConnectionId:f5cf4dd6-4dd1-4f83-9749-de7ec46d239b
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.23	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn)
+ClientConnectionId:f5cf4dd6-4dd1-4f83-9749-de7ec46d239b
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.23	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn)
+ClientConnectionId:f5cf4dd6-4dd1-4f83-9749-de7ec46d239b
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.23	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn)
+ClientConnectionId:f5cf4dd6-4dd1-4f83-9749-de7ec46d239b
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.23	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn)
+ClientConnectionId:f5cf4dd6-4dd1-4f83-9749-de7ec46d239b
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.53	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   in System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   in System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn) in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 159
+ClientConnectionId:9dc1a708-cb81-4bb3-a980-b09368c5d0f8
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.54	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn) in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 159
+ClientConnectionId:9dc1a708-cb81-4bb3-a980-b09368c5d0f8
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.54	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn) in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 159
+ClientConnectionId:9dc1a708-cb81-4bb3-a980-b09368c5d0f8
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.54	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn) in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 159
+ClientConnectionId:9dc1a708-cb81-4bb3-a980-b09368c5d0f8
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.54	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn) in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 159
+ClientConnectionId:9dc1a708-cb81-4bb3-a980-b09368c5d0f8
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.54	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn) in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 159
+ClientConnectionId:9dc1a708-cb81-4bb3-a980-b09368c5d0f8
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.54	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn) in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 159
+ClientConnectionId:9dc1a708-cb81-4bb3-a980-b09368c5d0f8
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.54	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn) in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 159
+ClientConnectionId:9dc1a708-cb81-4bb3-a980-b09368c5d0f8
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.54	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn) in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 159
+ClientConnectionId:9dc1a708-cb81-4bb3-a980-b09368c5d0f8
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.54	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn) in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 159
+ClientConnectionId:9dc1a708-cb81-4bb3-a980-b09368c5d0f8
+Error Number:4060,State:1,Class:11
+13/07/2018 16.22.54	Linea.SoglieAggiornaDati errore: System.Data.SqlClient.SqlException (0x80131904): Impossibile aprire il database "bfdata_materbio" richiesto dall'account di accesso. Accesso non riuscito.
+Accesso non riuscito per l'utente 'BF'.
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   in System.Data.SqlClient.SqlConnection.Open()
+   in GestioneDatabase.Sql.Open()
+   in GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   in GestioneDatabase.TipologiaConnessione.GetDatabase(TipologiaConnessione conn)
+   in WindasNet.Linea.SoglieAggiornaDati(Int32 Indice_Misura, TipologiaConnessione conn) in C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\Linea.vb:riga 159
+ClientConnectionId:9dc1a708-cb81-4bb3-a980-b09368c5d0f8
+Error Number:4060,State:1,Class:11

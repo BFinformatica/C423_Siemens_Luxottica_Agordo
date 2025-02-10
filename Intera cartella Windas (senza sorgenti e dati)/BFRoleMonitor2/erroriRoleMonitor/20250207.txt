@@ -1,0 +1,96 @@
+07/02/2025 14.00.33 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.00.33 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.00.33 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.00.33 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.01.05 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.01.05 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.01.05 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.01.05 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.01.37 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.01.37 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.01.37 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.01.37 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.02.09 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.02.09 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.02.09 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.02.09 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.02.41 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.02.41 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.02.41 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.02.41 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.03.13 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.03.13 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.03.13 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.03.13 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.03.45 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.03.45 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.03.45 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.03.45 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.04.17 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.04.17 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.04.17 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.04.17 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.04.49 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.04.49 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.04.49 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.04.49 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.05.21 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.05.21 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.05.21 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.05.21 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.05.53 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.05.53 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.05.53 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.05.53 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.06.25 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.06.25 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.06.25 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.06.25 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.06.57 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.06.57 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.06.57 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.06.57 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.07.29 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.07.29 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.07.29 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.07.29 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.08.01 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.08.01 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.08.01 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.08.01 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.08.33 ScriviTagOPC: <1> Object variable or With block variable not set
+07/02/2025 14.08.33 InizializzaOPC Interfaccia non registrata.
+
+07/02/2025 14.08.33 ScriviTagOPC: <1 WATCHDOG> Object variable or With block variable not set
+07/02/2025 14.08.33 InizializzaOPC Interfaccia non registrata.
+

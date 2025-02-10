@@ -1,0 +1,60 @@
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\WindasNET.exe.manifest
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\WindasNET.application
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\WindasNET.exe
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\WindasNET.pdb
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\WindasNET.xml
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\GestioneDatabase.dll
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\MySql.Data.dll
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WinDAS.net.vbprojResolveAssemblyReference.cache
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNet.FrmMain.resources
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNet.Resources.resources
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WinDAS.net.vbproj.GenerateResource.Cache
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.exe.manifest
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.application
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.exe
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.xml
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.pdb
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.exe
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.xml
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.pdb
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WinDAS.net.vbprojResolveAssemblyReference.cache
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNet.FrmMain.resources
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNet.Resources.resources
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WinDAS.net.vbproj.GenerateResource.Cache
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\WindasNET.exe.manifest
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\WindasNET.application
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\WindasNET.exe
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\WindasNET.pdb
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\WindasNET.xml
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\GestioneDatabase.dll
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\MySql.Data.dll
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.exe.manifest
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.application
+G:\Condivisa\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.exe
+G:\Condivisa\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.xml
+G:\Condivisa\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.pdb
+G:\Condivisa\Windas.NET\WindowsApplication1\bin\Release\CefSharp.WinForms.dll
+G:\Condivisa\Windas.NET\WindowsApplication1\bin\Release\CefSharp.WinForms.XML
+G:\Condivisa\Windas.NET\WindowsApplication1\bin\Release\WindasNET.exe.manifest
+G:\Condivisa\Windas.NET\WindowsApplication1\bin\Release\WindasNET.application
+G:\Condivisa\Windas.NET\WindowsApplication1\bin\Release\WindasNET.exe
+G:\Condivisa\Windas.NET\WindowsApplication1\bin\Release\WindasNET.pdb
+G:\Condivisa\Windas.NET\WindowsApplication1\bin\Release\WindasNET.xml
+G:\Condivisa\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNet.FrmMain.resources
+G:\Condivisa\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNet.Resources.resources
+G:\Condivisa\Windas.NET\WindowsApplication1\obj\x86\Release\WinDAS.net.vbproj.GenerateResource.Cache
+G:\Condivisa\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.exe.manifest
+G:\Condivisa\Windas.NET\WindowsApplication1\obj\x86\Release\WindasNET.application
+G:\Condivisa\Windas.NET\WindowsApplication1\bin\Release\CefSharp.Core.dll
+G:\Condivisa\Windas.NET\WindowsApplication1\bin\Release\CefSharp.dll
+G:\Condivisa\Windas.NET\WindowsApplication1\bin\Release\CefSharp.xml
+G:\Condivisa\Windas.NET\WindowsApplication1\bin\Release\CefSharp.Core.xml
+G:\Condivisa\Windas.NET\WindowsApplication1\obj\x86\Release\WinDAS.net.vbprojAssemblyReference.cache
+G:\Condivisa\Windas.NET\WindowsApplication1\obj\x86\Release\WinDAS.net.vbproj.CoreCompileInputs.cache
+G:\Condivisa\Windas.NET\WindowsApplication1\obj\x86\Release\WinDAS.net.vbproj.CopyComplete
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\CefSharp.Core.dll
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\CefSharp.dll
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\CefSharp.WinForms.dll
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\CefSharp.WinForms.xml
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\CefSharp.xml
+C:\Commesse\C996 Siemens\094 - Enel SI Agordo\Sorgenti\Windas.NET\WindowsApplication1\bin\Release\CefSharp.Core.xml

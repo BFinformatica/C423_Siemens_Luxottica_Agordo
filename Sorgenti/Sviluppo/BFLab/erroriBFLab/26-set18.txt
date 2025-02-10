@@ -1,0 +1,3 @@
+26/09/2018 10.36.28 ElaborazionidiLegge errore: Divisione per zero
+26/09/2018 10.38.53 ControlloWatchdogPLC: Manca programma BFImport.
+26/09/2018 10.57.18 ControlloWatchdogPLC: Manca programma BFImport.

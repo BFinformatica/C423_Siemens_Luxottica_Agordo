@@ -1,0 +1,15 @@
+G:\Progetti\GestioneDatabase4\GestioneDatabase4\bin\Debug\MySql.Data.dll
+G:\Progetti\GestioneDatabase4\GestioneDatabase4\bin\Debug\MySql.Fabric.Plugin.dll
+G:\Progetti\GestioneDatabase4\GestioneDatabase4\bin\Debug\GestioneDatabase.dll.config
+G:\Progetti\GestioneDatabase4\GestioneDatabase4\bin\Debug\GestioneDatabase.dll
+G:\Progetti\GestioneDatabase4\GestioneDatabase4\bin\Debug\GestioneDatabase.pdb
+G:\Progetti\GestioneDatabase4\GestioneDatabase4\obj\Debug\GestioneDatabase.dll
+G:\Progetti\GestioneDatabase4\GestioneDatabase4\obj\Debug\GestioneDatabase.pdb
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\GestioneDatabase\GestioneDatabase4\bin\Debug\GestioneDatabase.dll.config
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\GestioneDatabase\GestioneDatabase4\bin\Debug\GestioneDatabase.dll
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\GestioneDatabase\GestioneDatabase4\bin\Debug\GestioneDatabase.pdb
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\GestioneDatabase\GestioneDatabase4\bin\Debug\MySql.Data.dll
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\GestioneDatabase\GestioneDatabase4\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\GestioneDatabase\GestioneDatabase4\obj\Debug\GestioneDatabase4.csprojResolveAssemblyReference.cache
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\GestioneDatabase\GestioneDatabase4\obj\Debug\GestioneDatabase.dll
+C:\Commesse\C993 Emissioni\Emerson Italia\244 Materbiopolimer Frosinone\Sorgenti\GestioneDatabase\GestioneDatabase4\obj\Debug\GestioneDatabase.pdb

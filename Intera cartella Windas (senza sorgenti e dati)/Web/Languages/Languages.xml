@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <valore Key="placeholder_username" it="Username" en="Username" />
+  <valore Key="placeholder_password" it="Password" en="Password" />
+  <valore Key="salva" it="Salva" en="Save" />
+  <valore Key="username" it="Username" en="Username" />
+  <valore Key="password" it="Password" en="Password" />
+  <valore Key="elimina" it="Elimina" en="Delete" />
+  <valore Key="utente" it="Utente" en="User" />
+  <valore Key="login" it="Login" en="Login" />
+  <valore Key="legenda" it="Legenda" en="Legend" />
+  <valore Key="non_valido" it="Non valido" en="Invalid" />
+  <valore Key="attenzione" it="Attenzione" en="Attention" />
+  <valore Key="allarme" it="Allarme" en="Alarm" />
+  <valore Key="valore_istantaneo" it="Valore istantaneo" en="Instantaneous value" />
+  <valore Key="media_oraria" it="Media Oraria" en="Hourly Average" />
+  <valore Key="media_giornaliera" it="Media giornaliera" en="Daily average" />
+  <valore Key="tal_quale" it="Tal Quale" en="Tal Which" />
+  <valore Key="elaborato" it="Elaborato" en="Drafted" />
+  <valore Key="precedente" it="Precedente" en="Previous one" />
+  <valore Key="costruzione" it="Costruzione" en="Construction" />
+  <valore Key="previsionale" it="Previsionale" en="Forecasting" />
+  <valore Key="allarmi_stati" it="Allarmi &amp; Stati" en="Alarm &amp; States" />
+  <valore Key="attivo_non_riconosciuto" it="Attivo NON riconosciuto" en="Active and unacknowledged" />
+  <valore Key="non_attivo_non_riconosciuto" it="NON Attivo NON riconosciuto" en="Inactive and unacknowledged" />
+  <valore Key="attivo_riconosciuto" it="Attivo Riconosciuto" en="Active and acknowledged" />
+  <valore Key="filtra_non_riconosciuti" it="Filtra per NON riconosciuti" en="Filter by unacknowledged" />
+  <valore Key="filtra_allarmi" it="Filtra per allarmi" en="Include alarms" />
+  <valore Key="riconosci_tutti" it="Riconosci tutti" en="Acknowledge everything" />
+  <valore Key="filtra_attivi" it="Filtra per attivi" en="Include active" />
+  <valore Key="filtra_storici" it="Filtra per storici" en="Only historical" />
+  <valore Key="filtra_sati" it="Filtra per stati" en="Include states" />
+  <valore Key="tipo" it="Tipo" en="Type" />
+  <valore Key="descrizione" it="Descrizione" en="Description" />
+  <valore Key="data_inizio" it="Data inizio" en="Starting date" />
+  <valore Key="ora_inizio" it="Ora inizio" en="Start time" />
+  <valore Key="data_fine" it="Data fine" en="Ending date" />
+  <valore Key="ora_fine" it="Ora fine" en="End time" />
+  <valore Key="riconosciuto" it="Riconosciuto" en="Acknowledged" />
+  <valore Key="data_riconoscimento" it="Data riconoscimento" en="Acknowledge date" />
+  <valore Key="ora_riconoscimento" it="Ora riconoscimento" en="Acknowledge time" />
+  <valore Key="placeholder_nome" it="Inserisci il nome" en="Enter the name" />
+  <valore Key="placeholder_inserisci_percorso_icona" it="Inserisci il percorso dell'icona" en="Enter the icon path" />
+  <valore Key="placeholder_inserisci_id_parent" it="Inserisci l'id del parent" en="Enter the parent's id" />
+  <valore Key="pagina_visibile_amministratore" it="La pagina è visibile dall' amministratore" en="The page is visible from the administrator" />
+  <valore Key="pagina_visibile_cliente" it="La pagina è visibile dall cliente" en="The page is visible from the user" />
+  <valore Key="inserisci_nuovo_elemento" it="Inserisci un nuovo elemento" en="Insert a new item" />
+  <valore Key="id" it="Id" en="Id" />
+  <valore Key="nome" it="Nome" en="Name" />
+  <valore Key="path" it="Path" en="Path" />
+  <valore Key="icon" it="Icona" en="Icon" />
+  <valore Key="parent" it="Parent" en="Parent" />
+  <valore Key="visibile_amministratore" it="La pagina è visibile dall' amministratore" en="The page is visible from the administrator" />
+  <valore Key="visibile_cliente" it="La pagina è visibile dall cliente" en="The page is visible from the user" />
+  <valore Key="note" it="Note" en="note" />
+  <valore Key="inserisci_nome" it="Inserisci il nome" en="Enter your name" />
+  <valore Key="inserisci_percorso_icona" it="Inserisci il percorso dell'icona" en="Enter the icon path" />
+  <valore Key="inserisci_id_parent" it="Inserisci l'id del parent" en="Enter the parent's id" />
+  <valore Key="ordine_visualizzare_elemento" it="Inserisci l'ordine in cui visualizzare l'elemento" en="Enter the order in which to display the item" />
+  <valore Key="misura" it="Misura" en="Measure" />
+  <valore Key="valori_istantanei_medie_orarie" it="Valori istantanei per la media oraria" en="Instantaneous values ​​for the hourly average" />
+  <valore Key="M" it="M" en="M" />
+  <valore Key="Q" it="Q" en="Q" />
+  <valore Key="IC" it="IC" en="IC" />
+  <valore Key="range" it="Range" en="Range" />
+  <valore Key="data" it="Data" fine="Data fine" inizio="Data inizio" riconoscimento="Data di riconoscimento" en="Date" />
+  <valore Key="carica" it="Carica" en="Load" />
+  <valore Key="stazioni" it="Stazioni" en="stations" />
+  <valore Key="tipo_dati" it="Tipo di dati" en="Data type" />
+  <valore Key="resetta_filtro" it="Resetta filtro" en="Reset filter" />
+  <valore Key="filtro" it="Filtro" en="Filter" />
+  <valore Key="tipologia_utente" it="Tipo di utente" en="User type" />
+  <valore Key="figura" it="Figura" en="Figure" />
+  <valore Key="placeholder_sinottico_verde" it="Tag che lo rendono verde (solo parte intera separati da una virgola)" en="Tags that make it green (only number part separated by a comma)" />
+  <valore Key="placeholder_sinottico_giallo" it="Tag che lo rendono giallo (solo parte intera separati da una virgola)" en="Tags that make it yellow (only number part separated by a comma)" />
+  <valore Key="placeholder_sinottico_rosso" it="Tag che lo rendono rosso (solo parte intera separati da una virgola)" en="Tags that make it red (only number part separated by a comma)" />
+  <valore Key="placeholder_unita_misura" it="Inserisci l'unità di misura" en="Enter the measurement's unit" />
+  <valore Key="placeholder_tag_valore_unita_misura" it="Inserisci l'unità di misura" en="Enter the measurement's unit" />
+  <valore Key="placeholder_sinottico_id_controllo_svg" it="Id del controllo sul file svg" en="Element's id on svg file" />
+  <valore Key="verde" it="Verde" en="Green" />
+  <valore Key="giallo" it="Giallo" en="Yellow" />
+  <valore Key="rosso" it="Rosso" en="Red" />
+  <valore Key="unità_misura" it="Unità di misura" en="Unit of measure" />
+  <valore Key="tag_riferimento" it="Tag di riferimento" en="Reference tags" />
+  <valore Key="colore_default" it="Colore di default" en="Default color" />
+  <valore Key="resizable" it="Resizable" en="Resizable" />
+  <valore Key="tipo_controllo" it="Tipo di controllo" en="Element's type" />
+  <valore Key="controllo_automaticamente_ridimensionabile" it="Il controllo è automaticamente ridimensionabile" en="The control is automatically resizable" />
+  <valore Key="titolo_diario" it="Diario (Tabella)" en="Diary (Table)" />
+  <valore Key="titolo_diario_grafico" it="Diario (Grafico)" en="Diary (Chart)" />
+  <valore Key="diario" it="Diario" en="Diary" />
+  <valore Key="chiave" it="Chiave" en="Key" />
+  <valore Key="valore" it="Valore" en="Value" />
+  <valore Key="aggiungi_nuovo_elemento" it="Aggiungi un nuovo elemento" en="Add new element" />
+  <valore Key="benvenuto" it="Benvenuto" en="Welcome" />
+  <valore Key="utenti_attivi" it="Utenti attivi" en="Active users" />
+  <valore Key="logout" it="Logout" en="Logout" />
+  <valore Key="misure" it="Misure" en="Measures" />
+  <valore Key="sinottico" it="Sinottico" en="Synoptic" />
+  <valore Key="Config." it="Config." en="Setting" />
+  <valore Key="soglie" it="Soglie" en="Thresholds" />
+  <valore Key="qAL2" it="QAL2" en="QAL2" />
+  <valore Key="menu" it="Menu" en="Menu" />
+  <valore Key="utenti" it="Utenti" en="Users" />
+  <valore Key="generali" it="Generali" en="General" />
+  <valore Key="tabella" it="Tabella" en="Table" />
+  <valore Key="grafico" it="Grafico" en="chart" />
+  <valore Key="report" it="Report" en="Report" />
+  <valore Key="dati" it="Dati" en="Data" />
+  <valore Key="genera_grafico" it="Genera grafico" en="Generate chart" />
+  <valore Key="anno" it="Anno" en="Year" />
+  <valore Key="mese" it="Mese" en="Month" />
+  <valore Key="ora" it="Ora" fine="Ora fine" inizio="Ora inizio" riconoscimento="Ora di riconoscimento" en="Hour" />
+  <valore Key="tipo_report" it="Tipo di report" en="Report type" />
+  <valore Key="genera_report" it="Genera report" en="Generate report" />
+  <valore Key="Languages" it="Lingue" en="Language" />
+  <valore Key="placeholder_lingua" it="Inserisci una nuova lingua" en="Enter a new language" />
+  <valore Key="aggiungi_lingua" it="Aggiungi una nuova lingua" en="Add new language" />
+  <valore Key="inserisci_nuova_lingua" it="Inserisci una nuova lingua" en="Enter a new language" />
+  <valore Key="inserisci_nuova_stringa" it="Inserisci una nuova stringa" en="Enter a new string" />
+  <valore Key="aggiungi" it="Aggiungi" lingua="Aggiungi lingua" nuovo="Aggiungi nuovo elemento" en="Add" />
+  <valore Key="attivo" it="Attivo" non="Attivo NON riconosciuto" riconosciuto="Attivo Riconosciuto" en="Active" />
+  <valore Key="allarmi" it="Allarmi" stati="Allarmi &amp; Stati" en="Alarms" />
+  <valore Key="colore" it="Colore" default="Colore di default" en="Color" />
+  <valore Key="controllo" it="Controllo" automaticamente="Il controllo è automaticamente ridimensionabile" en="Check" />
+  <valore Key="filtra" it="Filtra" attivi="Filtra per attivi" allarmi="!MISSING-TRANSLATION!" non="Filtra per non riconosciuti" sati="Filtra per stati" storici="Filtra solo per storici" en="Filter" />
+  <valore Key="genera" it="Genera" grafico="Genera grafico" report="Genera report" en="Generate" />
+  <valore Key="inserisci" it="Inserisci" id="Inserisci l'id del parent" nome="Inserisci il nome" nuova="Inserisci un nuova stringa" nuovo="Inserisci un nuovo elemento" percorso="Inserisci il percorso dell'icona" en="Insert" />
+  <valore Key="media" it="Media" giornaliera="Media giornaliera" oraria="Media Oraria" en="Average" />
+  <valore Key="aggiungi_stringa" it="Aggiungi la stringa" en="Add text" />
+  <valore Key="placeholder_stringa" it="Inserisci una nuova stringa" en="Enter a new string" />
+  <valore Key="ordine" it="Ordine" en="Order" />
+  <valore Key="default_id_parent" it="Default -1 = nessun parent" en="Default -1 = no parent" />
+  <valore Key="cerca" it="Cerca" en="Find" />
+  <valore Key="errore_login" it="Impossibile fare login! Username o password errata!" en="Unable to login! Wrong username or password!" />
+  <valore Key="stati" it="Stati" en="States" />
+  <valore Key="update" it="Update" en="Update" />
+  <valore Key="normalizzati" it="Normalizzati" en="Normalized" />
+  <valore Key="tal_quali" it="Tal Quali" en="Such as" />
+  <valore Key="default" it="Connessione di Default" en="Default connection" />
+  <valore Key="station_code" it="Station code" en="Station code" />
+  <valore Key="server" it="Server" en="Server" />
+  <valore Key="database" it="Database" en="Database" />
+  <valore Key="connection_string" it="Stringa di connessione completa" en="Complete connection string" />
+  <valore Key="show_all" it="Mostra tutto" en="Show All" />
+  <valore Key="limite" it="Limite" en="Limit" />
+  <valore Key="cancel" it="Annulla" en="Cancel" />
+  <valore Key="report_giornaliero_completo" it="Report giornaliero completo" en="Full daily report" />
+  <valore Key="report_giornaliero_normal_funzionamento" it="Report giornaliero di normal funzionamento" en="Daily report of normal operation" />
+  <valore Key="report_giornaliero_concentrazioni" it="Report giornaliero delle concentrazioni" en="Daily report of concentrations" />
+  <valore Key="report_mensile_completo" it="Report mensile completo" en="Full monthly report" />
+  <valore Key="report_mensile_normal_funzionamento" it="Report mensile di normal funzionamento" en="Monthly report of normal operation" />
+  <valore Key="report_annuale_completo" it="Report annuale completo" en="Full annual report" />
+  <valore Key="report_annuale_normal_funzionamento" it="Report annuale di normal funzionamento" en="Annual report of normal operation" />
+  <valore Key="arpav" it="ARPA" en="ARPA" />
+  <valore Key="visibile_arpav" it="La pagina è visibile dall'ARPAV" en="The page is visible from the ARPAV" />
+  <valore Key="Log" it="Log" en="Log" />
+  <valore Key="nessuna_data" it="!MISSING-TRANSLATION!" en="!MISSING-TRANSLATION!" />
+  <valore Key="nessuna_data_ora" it="!MISSING-TRANSLATION!" en="!MISSING-TRANSLATION!" />
+  <valore Key="nessuna_data_inizio_fine" it="!MISSING-TRANSLATION!" en="!MISSING-TRANSLATION!" />
+  <valore Key="QAL3" it="QAL3" en="QAL3" />
+  <valore Key="errore_data_inizio_inferiore_data_fine" it="!MISSING-TRANSLATION!" en="!MISSING-TRANSLATION!" />
+  <valore Key="errore_data_inizio_inferiore" it="!MISSING-TRANSLATION!" en="!MISSING-TRANSLATION!" />
+  <valore Key="elementari" it="Elementari" en="Instant value" />
+  <valore Key="medie_orarie" it="Media oraria" en="Hourly average" />
+  <valore Key="medie_semi_orarie" it="Media semioraria" en="Average half an hour" />
+  <valore Key="tipo_medie" it="Tipo di medie" en="Average type" />
+  <valore Key="errore_sad_non_trovato" it="Non esiste nessun file '*.SAD' per il giorno" en="There is no '*.SAD' file for the day" />
+  <valore Key="errore_tabella_non_trovata" it="Non esiste nessuna tabella per il giorno" en="There is table for the day" />
+  <valore Key="home" it="Home" en="Home" />
+  <valore Key="emisssioni" it="Emissioni" en="Emissions" />
+  <valore Key="sintesi" it="Sintesi" en="Summary" />
+  <valore Key="Gruppo1" it="Gruppo1" en="Group1" />
+  <valore Key="Gruppo2" it="Gruppo2" en="Group2" />
+  <valore Key="GVR1" it="GVR1" en="GVR1" />
+  <valore Key="GVA1" it="GVA1" en="GVA1" />
+  <valore Key="GVA2" it="GVA2" en="GVA2" />
+  <valore Key="GVR2" it="GVR2" en="GVR2" />
+  <valore Key="admin" it="Admin" en="Admin" />
+</root>

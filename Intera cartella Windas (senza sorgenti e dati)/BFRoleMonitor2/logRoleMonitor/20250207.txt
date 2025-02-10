@@ -1,0 +1,36 @@
+07/02/2025 14.00.33 InizializzaOPC
+07/02/2025 14.00.33 InizializzaOPC
+07/02/2025 14.01.05 InizializzaOPC
+07/02/2025 14.01.05 InizializzaOPC
+07/02/2025 14.01.37 InizializzaOPC
+07/02/2025 14.01.37 InizializzaOPC
+07/02/2025 14.02.09 InizializzaOPC
+07/02/2025 14.02.09 InizializzaOPC
+07/02/2025 14.02.41 InizializzaOPC
+07/02/2025 14.02.41 InizializzaOPC
+07/02/2025 14.03.13 InizializzaOPC
+07/02/2025 14.03.13 InizializzaOPC
+07/02/2025 14.03.45 InizializzaOPC
+07/02/2025 14.03.45 InizializzaOPC
+07/02/2025 14.04.17 InizializzaOPC
+07/02/2025 14.04.17 InizializzaOPC
+07/02/2025 14.04.49 InizializzaOPC
+07/02/2025 14.04.49 InizializzaOPC
+07/02/2025 14.05.21 InizializzaOPC
+07/02/2025 14.05.21 InizializzaOPC
+07/02/2025 14.05.53 InizializzaOPC
+07/02/2025 14.05.53 InizializzaOPC
+07/02/2025 14.06.25 InizializzaOPC
+07/02/2025 14.06.25 InizializzaOPC
+07/02/2025 14.06.57 InizializzaOPC
+07/02/2025 14.06.57 InizializzaOPC
+07/02/2025 14.07.29 InizializzaOPC
+07/02/2025 14.07.29 InizializzaOPC
+07/02/2025 14.08.01 InizializzaOPC
+07/02/2025 14.08.01 InizializzaOPC
+07/02/2025 14.08.33 InizializzaOPC
+07/02/2025 14.08.33 InizializzaOPC
+07/02/2025 15.29.10 Avviato RoleMonitor.
+07/02/2025 15.29.45 Ruolo Corrente: SLAVE
+07/02/2025 15.48.47 Avviato RoleMonitor.
+07/02/2025 15.49.22 Ruolo Corrente: SLAVE

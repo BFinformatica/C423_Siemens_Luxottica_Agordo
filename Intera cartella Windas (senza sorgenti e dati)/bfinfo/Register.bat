@@ -1,0 +1,1 @@
+c:\Windas\Bfinfo\regasm windasocto.dll /codebase

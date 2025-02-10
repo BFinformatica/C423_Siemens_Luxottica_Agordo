@@ -1,0 +1,207 @@
+17/09/2018 10.50.48	GetConnectionParam System.Data.SqlClient.SqlException (0x80131904): Cannot open database "bfdata_agordo" requested by the login. The login failed.
+Login failed for user 'bf'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at GestioneDatabase.Sql.Open()
+   at GestioneDatabase.Sql..ctor(TipologiaConnessione connessione)
+   at GestioneDatabase.Gestione..ctor(String path_connessioni_xml)
+   at WindasNet.Utili.GetConnectionParams() in G:\Condivisa\Windas.NET\WindowsApplication1\Utili.vb:line 9
+ClientConnectionId:23e985bb-66b6-400e-ab1c-2424d00f6940
+Error Number:4060,State:1,Class:11
+17/09/2018 10.50.48	GestioneLinee errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneLinee() in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 337
+17/09/2018 10.50.48	CaricaDati errore: System.ArgumentNullException: Value cannot be null.
+Parameter name: L'argomento 'Array' è Nothing.
+   at Microsoft.VisualBasic.Information.UBound(Array Array, Int32 Rank)
+   at WindasNet.FrmMain.CaricaDati() in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 304
+17/09/2018 10.50.48	GestioneSinottico errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneAllarmi() in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 513
+17/09/2018 10.50.48	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.48	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.48	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.48	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.48	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.48	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.48	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.48	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.48	Timer1 errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 440
+17/09/2018 10.50.48	GestioneSinottico errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneAllarmi() in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 513
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	Timer1 errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 440
+17/09/2018 10.50.49	GestioneSinottico errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneAllarmi() in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 513
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.49	Timer1 errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 440
+17/09/2018 10.50.49	GestioneSinottico errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneAllarmi() in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 513
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	Timer1 errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 440
+17/09/2018 10.50.50	GestioneSinottico errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneAllarmi() in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 513
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.50	Timer1 errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 440
+17/09/2018 10.50.51	GestioneSinottico errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneAllarmi() in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 513
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	Timer1 errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 440
+17/09/2018 10.50.51	GestioneSinottico errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneAllarmi() in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 513
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.51	Timer1 errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 440
+17/09/2018 10.50.52	GestioneSinottico errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneAllarmi() in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 513
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	Timer1 errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 440
+17/09/2018 10.50.52	GestioneSinottico errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneAllarmi() in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 513
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	GestioneCasella errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.GestioneCasella(Object TipoTag) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 610
+17/09/2018 10.50.52	Timer1 errore: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WindasNet.FrmMain.Timer1_Tick(Object sender, EventArgs e) in G:\Condivisa\Windas.NET\WindowsApplication1\FrmMain.vb:line 440
